@@ -35,7 +35,7 @@ func (c *command) Cmd() *cobra.Command {
 		"/metrics", "endpoint at which prometheus metrics are served")
 
 	cmd.Flags().StringVar(&c.moneroAddr, "monero-addr",
-		"http://localhost:18081", "address of the monero instance to "+
+		"http://localhost:36081", "address of the monero instance to "+
 			"collect info from")
 
 	cmd.Flags().StringVar(&c.geoIPFilepath, "geoip-filepath",
