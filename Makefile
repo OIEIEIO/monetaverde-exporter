@@ -6,7 +6,7 @@ install:
 
 run:
 	monero-exporter \
-		--monero-addr=http://localhost:18081 \
+		--monero-addr=http://localhost:36081 \
 		--bind-addr=:9000
 
 test:
